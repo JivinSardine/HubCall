@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HubCall</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>WebRTC Calling App</h1>
+	<div class="container">
+		<video id="localVideo" autoplay muted></video>
+		<video id="remoteVideo" autoplay></video>
+		<div class="buttons">
+			<button onclick="startCall()">Call</button>
+			<button onclick="endCall()">Hang Up</button>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
